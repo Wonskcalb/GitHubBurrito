@@ -1,0 +1,23 @@
+[project]
+name = "GitHubBurrito"
+version = "0.1.0"
+description = "A GitHub client implementing Rust's magical monads"
+authors = [
+    {name = "Valentin Famelart", email = "hello@famelart.fr"},
+]
+dependencies = [
+    "returns>=0.22.0",
+    "requests>=2.31.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.4",
+]
