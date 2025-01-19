@@ -20,4 +20,6 @@ build-backend = "pdm.backend"
 [tool.pdm.dev-dependencies]
 dev = [
     "pytest>=7.4.4",
+    "black>=23.12.1",
+    "ipython>=8.19.0",
 ]
